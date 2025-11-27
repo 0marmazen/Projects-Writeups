@@ -478,7 +478,7 @@ id user02    # Shows UID, GID, and groups of another user
 > 
 ### Lesson 7 — Default File Permissions  
 > 
-this 8+3+2+4+4+3+2+6=37
+ 8+3+2+4+4+3+2+6=37
 ---
 
 ## CH08 — Monitoring and Managing Processes
@@ -494,7 +494,7 @@ this 8+3+2+4+4+3+2+6=37
 > 
 ### Lesson 6 — Process Priority  
 > 
-//this 8+3+2+4+4+3+2+5=31
+// 8+3+2+4+4+3+2+5=31
 
 
 ---
@@ -506,7 +506,7 @@ this 8+3+2+4+4+3+2+6=37
 > 
 ### Lesson 3 — Manage Services  
 > 
-this 8+3+2+4+4+3+2=26
+ 8+3+2+4+4+3+2=26
  ---
 
 ## CH10 — Configuring and Securing SSH
@@ -518,7 +518,7 @@ this 8+3+2+4+4+3+2=26
 > 
 ### Lesson 4 — Customize SSH Service Config  
 > 
-this 8+3+2+4+4+3=24
+ 8+3+2+4+4+3=24
 
 
 ---
@@ -534,7 +534,7 @@ this 8+3+2+4+4+3=24
 > 
 ### Lesson 5 — Change Timezone  
 > 
-this 8+3+2+4+4=21
+ 8+3+2+4+4=21
 > 
 ## CH12 — Managing Networking
 ### Lesson 1 — Intro   >Introduction   
@@ -549,7 +549,7 @@ this 8+3+2+4+4=21
 > 
 ### Lesson 6 — Summary  
 > 
-this 8+3+2+4=17
+ 8+3+2+4=17
 ---
 
 ## CH13 — Archiving and Transferring Files
@@ -559,7 +559,7 @@ this 8+3+2+4=17
 > 
 ### Lesson 3 — Transfer Files Securely  
 > 
-this 8+3+2=13
+ 8+3+2=13
 
 
 ---
@@ -583,7 +583,7 @@ this 8+3+2=13
 > 
 ### Lesson 9 — Update/Remove Packages with YUM  
 > 
-this 8+3=11
+ 8+3=11
 
 
 ---
@@ -598,10 +598,8 @@ this 8+3=11
 ### Lesson 4 — Search Files on Mounted FS  
 > 
 
-this 3 
-```
 
----
+<!---
 
 
 
@@ -620,11 +618,8 @@ this 3
 | CH12    | Networking     |       | Set IP and hostname           |
 | CH14    | Packages       |       | Installed via yum             |
 
----
+--->
 
-🕓 **Last Updated:** November 2025
-📘 **Maintained by:** Omar Mazen
-🔥 *Learning by doing — every command counts!*
 
-```
+
 
