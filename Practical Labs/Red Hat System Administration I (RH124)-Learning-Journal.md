@@ -464,11 +464,12 @@ id user02    # Shows UID, GID, and groups of another user
 ---
 
 ## CH07 — Controlling Access to Files
-### Lesson 1 — Intro   >Introduction   
-![Permission](../assets/RHEL/8.png)
+### Lesson 1 — Intro 
+>Introduction   
+>![Permission](../assets/RHEL/8.png)
 ### Lesson 2 — File System Permissions  
  ![Permission](../assets/RHEL/6.png)
-## Permission Table for Files and Directories
+### Permission Table for Files and Directories
 | PERMISSION | EFFECT ON FILES                                  | EFFECT ON DIRECTORIES|
 |------------|--------------------------------------------------|-------------------------|
 | **r (read)**  | Contents of the file can be read.                | Allows listing the directory contents.|
@@ -487,7 +488,7 @@ drwxr-xr--. 2 root root 45 Dec 3 13:12 dir1
 ```
 ### Lesson 4 — Change Permissions (Numeric )  
 >
- ## Permission Bits Table 
+ ### Permission Bits Table 
 
 | Octal | Decimal      | Permission               | Representation |
 |-------|--------------|---------------------------|----------------|
@@ -507,7 +508,7 @@ drwxr-xr--. 2 root root 45 Dec 3 13:12 dir1
 ```
 
 ### Lesson 5 — Ownership  
-## chown vs chgrp
+### chown vs chgrp
 
 | Command | Description | Example |
 |---------|-------------|---------|
@@ -648,14 +649,17 @@ drwxr-xr--. 2 root root 45 Dec 3 13:12 dir1
 | ------- | -------------- |:----:| ----------------------------- |
 | CH01    | Install RHEL 9 |   ✅  | Installed on VirtualBox       |
 | CH02    | Command Line   |    ✅   | Practiced basic commands      |
-| CH03    | Managing Files |    -   | Learned links and paths       |
-| CH04    | Help in RHEL   |       | Used `man` and `--help`       |
-| CH05    | Editing Text   |       | Practiced Vim and redirection |
-| CH06    | Users & Groups |       | Managed users & permissions   |
-| CH07    | File Access    |       | Learned chmod/chown           |
-| CH11    | Logs           |       | Used journalctl               |
-| CH12    | Networking     |       | Set IP and hostname           |
-| CH14    | Packages       |       | Installed via yum             |
+| CH03    | Managing Files |    ✅   | Learned links and paths       |
+| CH04    | Help in RHEL   |     ✅  | Used `man` and `--help`       |
+| CH05    | Editing Text   |   ✅    | Practiced Vim and redirection |
+| CH06    | Users & Groups |     2/9  | Managed users & permissions   |
+| CH07    | File Access    |    5/6   | Learned chmod/chown           |
+| CH8    |Linux Processes |         | Used journalctl               |
+| CH9    |controlling Services|         | Set IP and hostname           |
+| CH10    |    SSH           |         | Installed via yum             |
+| CH11    | Logs           |        | Used journalctl               |
+| CH12    | Networking     |         | Set IP and hostname           |
+| CH14    | Packages       |        | Installed via yum             |
 
 --->
 
