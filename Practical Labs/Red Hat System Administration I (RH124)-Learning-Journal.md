@@ -465,15 +465,54 @@ id user02    # Shows UID, GID, and groups of another user
 
 ## CH07 — Controlling Access to Files
 ### Lesson 1 — Intro   >Introduction   
-> 
+![Permission](../assets/RHEL/8.png)
 ### Lesson 2 — File System Permissions  
-> 
+ ![Permission](../assets/RHEL/6.png)
+## Permission Table for Files and Directories
+| PERMISSION | EFFECT ON FILES                                  | EFFECT ON DIRECTORIES|
+|------------|--------------------------------------------------|-------------------------|
+| **r (read)**  | Contents of the file can be read.                | Allows listing the directory contents.|
+| **w (write)** | Contents of the file can be changed.             | Allows creating, deleting, or renaming files in the directory. |
+| **x (execute)** | Files can be executed as commands.            | Allows entering the directory and accessing its contents.|
+
 ### Lesson 3 — Change Permissions (Symbolic)  
-> 
-### Lesson 4 — Change Permissions (Numeric)  
-> 
+> ![Permission](../assets/RHEL/7.png)
+```bash
+[root@RHEL home]# ls -ld dir1
+drwxr-xr-x. 2 root root 45 Dec 3 13:12 dir1
+[root@RHEL home]# chmod o-x dir1
+[root@RHEL home]# ls -ld dir1
+drwxr-xr--. 2 root root 45 Dec 3 13:12 dir1
+[root@RHEL home]#
+```
+### Lesson 4 — Change Permissions (Numeric )  
+>
+ ## Permission Bits Table 
+
+| Octal | Decimal      | Permission               | Representation |
+|-------|--------------|---------------------------|----------------|
+| 000   | 0 (0+0+0)    | No permission             | ---            |
+| 001   | 1 (0+0+1)    | Execute                   | --x            |
+| 010   | 2 (0+2+0)    | Write                     | -w-            |
+| 011   | 3 (0+2+1)    | Write + Execute           | -wx            |
+| 100   | 4 (4+0+0)    | Read                      | r--            |
+| 101   | 5 (4+0+1)    | Read + Execute            | r-x            |
+| 110   | 6 (4+2+0)    | Read + Write              | rw-            |
+| 111   | 7 (4+2+1)    | Read + Write + Execute    | rwx            |
+
+```bash
+[root@lab01 ~]# chmod 754 file1
+[root@lab01 ~]# chmod 400 file1
+[root@lab01 ~]# chmod -R 755 dir1     #It goes through the directory step by step and changes the permissions for everything inside it
+```
+
 ### Lesson 5 — Ownership  
-> 
+## chown vs chgrp
+
+| Command | Description | Example |
+|---------|-------------|---------|
+| **chown** | Changes the owner (user) of a file or directory | `chown user file1` |
+| **chgrp** | Changes the group of a file or directory | `chgrp group file1` |
 ### Lesson 6 — Special Permissions (Setuid, Setgid, Sticky)  
 > 
 ### Lesson 7 — Default File Permissions  
