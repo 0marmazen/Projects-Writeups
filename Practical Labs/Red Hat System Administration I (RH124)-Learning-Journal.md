@@ -515,10 +515,19 @@ drwxr-xr--. 2 root root 45 Dec 3 13:12 dir1
 | **chown** | Changes the owner (user) of a file or directory | `chown user file1` |
 | **chgrp** | Changes the group of a file or directory | `chgrp group file1` |
 ### Lesson 6 — Special Permissions (Setuid, Setgid, Sticky)  
-> 
+ 
+
+| SPECIAL PERMISSION | EFFECT ON FILES| EFFECT ON DIRECTORIES|
+|--------------------|----------|--------------------------------------------|
+| **u+s (SUID)**     | File executes as the user who owns the file, not the user who runs it.| No effect.|
+| **g+s (SGID)**     | File executes` as the group that owns` the file.| Newly created files inside the directory inherit the directory’s group ownership.|
+| **o+t (Sticky Bit)** | No effect.| Users with write access can delete only their `own files`; they cannot delete or overwrite files owned by others.|
+
 ### Lesson 7 — Default File Permissions  
-> 
- 8+3+2+4+4+3+2+6=37
+`The umask command without arguments will display the current value of the shell's umask`
+
+UMUSK NNN
+> ![umusk command](../assets/RHEL/9.png)
 ---
 
 ## CH08 — Monitoring and Managing Processes
