@@ -3,7 +3,7 @@
 # 🐧 Red Hat System Administration I (RH124) — Learning Journal  
 Student: Omar Mazen  
 Field: Computer Engineering — Cybersecurity  
-Goal: Documenting my progress and hands-on practice while learning RHEL 9  
+Goal: Documentation and summarization while learning RHEL Part 1
 
  ![cover](../assets/RHEL/RHEL.png)
 
@@ -543,9 +543,8 @@ UMUSK NNN
 > 
 ### Lesson 6 — Process Priority  
 > 
-// 8+3+2+4+4+3+2+5=31
 
-
+<!---
 ---
 
 ## CH09 — Controlling Services and Daemons
@@ -648,7 +647,7 @@ UMUSK NNN
 > 
 
 
-<!---
+
 
 
 
