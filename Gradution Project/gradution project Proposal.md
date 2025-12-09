@@ -27,9 +27,9 @@
 ### **4. Project Background (Abstract)**
 
 Penetration testing plays a crucial role in cybersecurity, requiring security teams to use multiple command-line tools to assess system vulnerabilities. This process can be time-consuming, complex, and prone to human error.
-**RedGuard** aims to simplify and automate penetration testing by integrating popular security tools into a unified intelligent platform. The system is built on a Raspberry Pi device equipped with essential tools and a smart web-based dashboard.
+**RedOpsCenter** aims to simplify and automate penetration testing by integrating popular security tools into a unified intelligent platform. The system is built on a Raspberry Pi device equipped with essential tools and a smart web-based dashboard.
 
-RedGuard enables users to run network and Wi-Fi assessments through simple interface buttons, automatically generate AI-powered professional reports, and even control the device remotely. This approach enhances workflow efficiency, reduces complexity, and provides a portable red-team toolkit suitable for both beginners and professionals.
+RedOpsCenter enables users to run network and Wi-Fi assessments through simple interface buttons, automatically generate AI-powered professional reports, and even control the device remotely. This approach enhances workflow efficiency, reduces complexity, and provides a portable red-team toolkit suitable for both beginners and professionals.
 
 ---
 
@@ -58,7 +58,7 @@ RedGuard enables users to run network and Wi-Fi assessments through simple inter
 
 ### **7. Expected Deliverables**
 
-* Functional **RedGuard** device prototype.
+* Functional **RedOpsCenter** device prototype.
 * Web-based dashboard for controlling penetration tools.
 * Modular backend scripts for scanning Wi-Fi, networks, and services.
 * AI-powered PDF reporting system.
