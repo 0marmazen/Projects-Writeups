@@ -6,12 +6,13 @@
 
 ### **2. Team Members**
 
-| Name                  | Student ID | Program              | Contribution                                    |
-| --------------------- | ---------- | -------------------- | ----------------------------------------------- |
-| Ali Magdy Ali         | 20185473   | Computer Engineering | Web GUI Lead — Frontend & Backend Web Developer |
-| Youssef Essam Youssef | 20191354   | Computer Engineering | Web GUI Lead — Frontend & Backend Web Developer |
-| Fouad Ahmed Fouad     | 20190412   | Computer Engineering | Hardware Lead                                   |
-| Omar Salah Mazen      | 20184770   | Computer Engineering | Automation & Security Lead                      |
+| Name                    | Program              | Contribution                                    |
+| ---------------------   | -------------------- | ----------------------------------------------- |
+| Omar Salah Mazen        | Computer Engineering | Team Leader — Automation & Security Lead         |
+| Ali Magdy Ali           | Computer Engineering | Web GUI Lead — Frontend & Backend Web Developer |
+| Youssef Essam Youssef   | Computer Engineering | Web GUI Lead — Frontend & Backend Web Developer |
+| Fouad Ahmed Fouad        | Computer Engineering | Hardware Lead                                   |
+
 
 ---
 
