@@ -5,7 +5,7 @@
 
   <head/>
 <body>
-  <h1>Bandit Walkthrough - Levels</h1>
+  <h1>Bandit Walkthrough part 1 - Levels</h1>
 <img src="../assets/Bandit/Bandit.png" alt="Bandit" />
   <h2>Introduction</h2>
   <p>
