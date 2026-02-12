@@ -2,7 +2,7 @@
  <div align="center">
   <hr>
   
-  ![PwnPalVideo_Banner](((((bannner)))))
+  ![Video_Banner](((((bannner)))))
   
   <hr>
   <h3 align="center">
@@ -23,7 +23,7 @@
 
 
 ## 📚 Table of Contents:
- - [Overview](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#-overview)
+ - [Overview](https://github.com/0marmazen/Projects-Writeups/blob/main/Projects/Portable-Network-Security-Assessment.md?tab=readme-ov-file#-overview)
  - [Features](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#-features)
  - [Components](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#-components)
  - [Guide](https://github.com/Shlucus/TheRaspberryPwn?tab=readme-ov-file#%EF%B8%8F-guide)
