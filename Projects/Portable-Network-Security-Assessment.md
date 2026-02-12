@@ -2,7 +2,7 @@
  <div align="center">
   <hr>
   
-  ![Video_Banner](((((bannner)))))
+  ![Banner](assets/network-tool/Overview.png)
   
   <hr>
   <h3 align="center">
@@ -32,10 +32,8 @@
 This project transforms a Raspberry Pi into a portable penetration testing device, combining the versatility of Kali Linux with the compact form factor of the Raspberry Pi. It enables security professionals and enthusiasts to tactically conduct mobile pentesting and ethical hacking activities on-the-go. Inspired by the [Pwnagotchi Project](https://pwnagotchi.ai/), my goal was to create my own pocket-sized pentesting or 'pwning' device but offering the same tools and capabilities of a complete linux desktop. Not only does it allow mobile pentesting, but also remote attacks thanks to Secure Shell (SSH) and it's small size, allowing you to easily plant the device in a target organization and monitor network traffic by running commands from anywhere in the world. 
 <br>
 
-<div align="center">
-<img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/f612bb55-2c71-42b9-aee7-ae2f6df4076d" alt="PwnPal Pic" width="350">
-<img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/35e0eb22-1a37-4aa8-b60c-8be9987f23c0" alt="PwnPal GIF" width="350">
-</div>
+![d](assets/network-tool/image1.png)
+![d](assets/network-tool/image1.png)
 
 ## ✨ Features
 - <ins>Raspberry Pi Integration</ins>: Utilizes the Raspberry Pi for its compact size and portability.
@@ -70,9 +68,7 @@ Make sure you have:
 - b) Operating System > Use Custom > *Kali Linux ARM Image*
 - c) Grade 10 MicroSD with 16Gb or above.
 
-<div align="center">
- <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/36ccdba4-c032-456b-a3a4-dfc3fe0735cb" alt="Board (Bottom)" width="500">
-</div>
+![Os-setup](assets/network-tool/os.png)
 
 ### Step 2: Installing LCD Display
 
@@ -81,11 +77,9 @@ Due to the Waveshare screen's simple design, installing it is as easy as pluggin
 > [!TIP]
 > If using the Heatsink mentioned in the 'Components' section, the aluminum will interfere with the screen's own components on the underside. This will prevent the screen from sitting flush against the device.  To fix this, you can either alter the heatsink directly by reducing its surface, or like I did, make supports on the corners of the screen between the heatsink with adhesive putty. (Ensures stability and keep  the screen glued to the device)
 
-<div align="center">
- <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/90756a6b-c6ad-4068-be0c-bb6cd0749652" alt="Board Side1" width="300">
- <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/4d4fd66e-8615-431e-9833-ef367741ab30" alt="Board Side2" width="300">
- <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/6d1af7e1-6128-46de-85c4-ae6942a8f37a" alt="Board Angle" width="300">
-</div>
+![screen-setup](assets/network-tool/screen1.png)
+![screen-setup](assets/network-tool/screen2.png)
+![screen-setup](assets/network-tool/screen3.png)
 Once the MicroSD is inserted and Screen is connected, you will notice powering ON the Pi that the screen will remain white (this is normal). We have yet to install the drivers for the Pi to communicate with it
 
 >[!NOTE]  
@@ -112,15 +106,11 @@ Then, take the four M2.5 screws provided from the PiSugar S Plus and screw it in
 > [!NOTE]  
 > If using Heatsink, use the case's/heatsink's M2.5 screws INSTEAD, since they are longer and will allow to screw in both the battery and Heatsink at the same time.
 
-<div align="center">
-   <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/9fef0136-21a9-4e96-9d45-e45975c70587" alt="Bottom" width="500">
-</div>
+![Battery](assets/network-tool/Battery1.png)
 
 The way this possible is thanks to the Pogo Pins on the PiSugar that allows access to the GPIO pins from the underside of the Pi! So make sure the pogo pins are properly in contact with the GPIO pins.
 
-<div align="center">
- <img src="https://github.com/Shlucus/TheRaspberryPwn/assets/111912000/109ec049-f0a4-44d4-a827-885c8a351ebd" alt="Pogo Pins" width="500">
-</div>
+![Battery](assets/network-tool/Battery2.png)
 
 I strongly suggest watching this Youtube video for help with the installation -> [Pi Sugar S Plus Review](https://youtu.be/HUL5Ii0dD7E?si=tGOrOx8UDh8VqgeL)
 
