@@ -78,7 +78,7 @@ Due to the Waveshare screen's simple design, installing it is as easy as pluggin
 > If using the Heatsink mentioned in the 'Components' section, the aluminum will interfere with the screen's own components on the underside. This will prevent the screen from sitting flush against the device.  To fix this, you can either alter the heatsink directly by reducing its surface, or like I did, make supports on the corners of the screen between the heatsink with adhesive putty. (Ensures stability and keep  the screen glued to the device)
 
 ![screen-setup](../assets/network-tool/screen1.jpg)
-![screen-setup](../assets/network-tool/screen2.png)
+![screen-setup](../assets/network-tool/screen2.jpg)
 ![screen-setup](../assets/network-tool/screen3.jpg)
 Once the MicroSD is inserted and Screen is connected, you will notice powering ON the Pi that the screen will remain white (this is normal). We have yet to install the drivers for the Pi to communicate with it
 
