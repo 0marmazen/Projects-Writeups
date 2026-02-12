@@ -2,7 +2,7 @@
  <div align="center">
   <hr>
   
-  ![Banner](Projects-Writeups/assets/network-tool/Overview.png)
+  ![Banner](../assets/network-tool/Overview.png)
   
   <hr>
   <h3 align="center">
