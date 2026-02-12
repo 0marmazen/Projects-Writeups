@@ -2,7 +2,7 @@
  <div align="center">
   <hr>
   
-  ![Banner](../assets/network-tool/Overview.png)
+  ![Banner](../assets/network-tool/Overview.jpg)
   
   <hr>
   <h3 align="center">
@@ -77,9 +77,9 @@ Due to the Waveshare screen's simple design, installing it is as easy as pluggin
 > [!TIP]
 > If using the Heatsink mentioned in the 'Components' section, the aluminum will interfere with the screen's own components on the underside. This will prevent the screen from sitting flush against the device.  To fix this, you can either alter the heatsink directly by reducing its surface, or like I did, make supports on the corners of the screen between the heatsink with adhesive putty. (Ensures stability and keep  the screen glued to the device)
 
-![screen-setup](../assets/network-tool/screen1.png)
+![screen-setup](../assets/network-tool/screen1.jpg)
 ![screen-setup](../assets/network-tool/screen2.png)
-![screen-setup](../assets/network-tool/screen3.png)
+![screen-setup](../assets/network-tool/screen3.jpg)
 Once the MicroSD is inserted and Screen is connected, you will notice powering ON the Pi that the screen will remain white (this is normal). We have yet to install the drivers for the Pi to communicate with it
 
 >[!NOTE]  
@@ -106,11 +106,11 @@ Then, take the four M2.5 screws provided from the PiSugar S Plus and screw it in
 > [!NOTE]  
 > If using Heatsink, use the case's/heatsink's M2.5 screws INSTEAD, since they are longer and will allow to screw in both the battery and Heatsink at the same time.
 
-![Battery](../assets/network-tool/Battery1.png)
+![Battery](../assets/network-tool/Battery1.jpg)
 
 The way this possible is thanks to the Pogo Pins on the PiSugar that allows access to the GPIO pins from the underside of the Pi! So make sure the pogo pins are properly in contact with the GPIO pins.
 
-![Battery](../assets/network-tool/Battery2.png)
+![Battery](../assets/network-tool/Battery2.jpg)
 
 I strongly suggest watching this Youtube video for help with the installation -> [Pi Sugar S Plus Review](https://youtu.be/HUL5Ii0dD7E?si=tGOrOx8UDh8VqgeL)
 
